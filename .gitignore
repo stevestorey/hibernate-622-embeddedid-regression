@@ -1,0 +1,23 @@
+# Ignore build directories
+target/
+bin/
+build/
+node_modules/
+
+# Ignore files that are intended to used to override for this environment
+personal.properties
+
+# Ignore Eclipse files
+.project
+.classpath
+.settings/
+.apt_generated/
+.factorypath
+.springBeans
+# Ignore files generated while attaching debuggers. Not entirely sure why this happens.
+.attach_pid*
+
+# Ignore files produced during testing locally
+derby.log
+npm-debug.log
+/.metadata/
